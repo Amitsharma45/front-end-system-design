@@ -1,0 +1,28 @@
+.app {
+  width: 70%;
+  margin: 0 auto;
+  border: 2px dotted #333;
+}
+
+.accordion{
+  background-color: aquamarine;
+  font: 500;
+  font-size: x-large;
+  margin: 4px 0;
+  display: flex ;
+  justify-content: space-between;
+  padding: 0 10px;
+
+}
+
+.accordion-item {
+  max-height: 0 ;
+  opacity: 0;
+  overflow: hidden;
+  transition: max-height 300ms ease-in-out, opacity 300ms ease-in-out;
+}
+
+.accordion-item.open {
+  max-height: 500px; /* or another value that fits your content */
+  opacity: 1;
+}
