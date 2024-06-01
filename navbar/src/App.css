@@ -1,0 +1,22 @@
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    background-color: aquamarine;
+    padding: 0px 20px;
+    color: brown;
+}
+
+.nav_item{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+.logo{
+    font-size: 1rem;
+    font-weight: bold;
+    display: flex;
+    gap: 10px;
+}

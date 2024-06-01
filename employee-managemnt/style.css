@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.details{
+    display: flex;
+    height: 400px;
+    border: 2px solid black;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.employees-list{
+    width: 25%;
+    border: 2px solid red;
+}
+
+.employees-item{
+    width: 75%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.employee-card{
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;
+}
