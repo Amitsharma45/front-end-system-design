@@ -1,0 +1,15 @@
+.heading {
+  font-size: 32px;
+  margin: 20px auto;
+  width: 100%;
+  text-align: center;
+}
+
+.search-box {
+  margin: 20px auto;
+  height: 40px;
+  width: 400px;
+  padding-left: 10px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+}
